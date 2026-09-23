@@ -63,9 +63,6 @@ These variables apply to the current PowerShell session.
 
 ```powershell
 python test_login.py
-python test_navigation.py
-python test_template.py
-python test_live_demo.py
 python test_google_sheet.py
 ```
 
@@ -81,9 +78,3 @@ The Edge WebDriver executable should be available as `msedgedriver.exe` in the p
 6. Run `test_google_sheet.py` to verify the connection.
 
 The login test also sends its PASS/FAIL result, execution time, and failure reason to the same endpoint.
-
-## Notes
-
-- `test_category_debug.py` and the temporary intentional-failure test were excluded from the final project because they were debugging artifacts.
-- Test credentials are intentionally supplied through environment variables.
-- The tests use the selectors that were working in the submitted project; website changes may require selector updates.
