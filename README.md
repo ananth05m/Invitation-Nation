@@ -61,9 +61,8 @@ These variables apply to the current PowerShell session.
 
 ## Run tests
 
-```powershell
+```terminal
 python test_login.py
-python test_google_sheet.py
 ```
 
 The Edge WebDriver executable should be available as `msedgedriver.exe` in the project directory, or the Selenium setup should otherwise be able to locate the compatible driver.
